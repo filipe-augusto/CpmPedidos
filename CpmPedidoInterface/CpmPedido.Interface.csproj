@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CpmPedidosDomain\CpmPedidosDomain.csproj" />
+    <ProjectReference Include="..\CpmPedidosDomain\CpmPedidos.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Maps\" />
-    <Folder Include="Common\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
@@ -27,8 +26,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CpmPedidoInterface\CpmPedidoInterface.csproj" />
-    <ProjectReference Include="..\CpmPedidosDomain\CpmPedidosDomain.csproj" />
+    <ProjectReference Include="..\CpmPedidoInterface\CpmPedido.Interface.csproj" />
+    <ProjectReference Include="..\CpmPedidosDomain\CpmPedidos.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,6 +9,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Npgsql" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CpmPedidoInterface\CpmPedido.Interface.csproj" />
+    <ProjectReference Include="..\CpmPedidosDomain\CpmPedidos.Domain.csproj" />
+    <ProjectReference Include="..\CpmPedidosRepository\CpmPedidos.Repository.csproj" />
   </ItemGroup>
 
 </Project>
