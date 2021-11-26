@@ -4,14 +4,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CpmPedidos.Domain;
 
 namespace CpmPedidos.Repository
 {
    public class ApplicationDbContext : DbContext
     {
 
-
-        public virtual DbSet<Pedido> Pedidos { get; set; }
+        public  DbSet<Cidade> Cidades { get; set; }
+        //public virtual DbSet<Pedido> Pedidos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
