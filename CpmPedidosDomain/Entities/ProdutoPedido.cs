@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CpmPedidos.Domain.Entities
+{
+   public class ProdutoPedido : BaseDomain
+    {
+        public int Quantidade { get; set; }
+
+        public decimal Preco { get; set; }
+
+        public int IdProduto { get; set; }
+
+        public virtual int  Produto { get; set; }
+
+        public int IdPedido { get; set; }
+
+        public virtual Pedido Pedido { get; set; }
+
+    }
+}
