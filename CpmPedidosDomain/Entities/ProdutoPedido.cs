@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CpmPedidos.Domain.Entities
+namespace CpmPedidos.Domain
 {
    public class ProdutoPedido : BaseDomain
     {
@@ -14,11 +14,13 @@ namespace CpmPedidos.Domain.Entities
 
         public int IdProduto { get; set; }
 
-        public virtual int  Produto { get; set; }
+        public virtual  Produto Produto { get; set; }
 
         public int IdPedido { get; set; }
 
         public virtual Pedido Pedido { get; set; }
+
+
 
     }
 }

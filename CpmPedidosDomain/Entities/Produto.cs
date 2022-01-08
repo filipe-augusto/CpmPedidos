@@ -11,6 +11,8 @@ namespace CpmPedidos.Domain
         public int IdCategoria { get; set; }
         public virtual CategoriaProduto Categoria { get; set; }
         public virtual List<Imagem> Imagens { get; set; }
+        public virtual List<Combo> Combos { get; set; }
+        public virtual List<PromocaoProduto> Promocoes { get; set; }
         public bool Ativo { get; set; }
 
     }
